@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-image: url("");
+    background-color:#fdbb2d;
+
+}
+
+img{
+    width:200px;
+}
+
+.imge1{
+    width:200px;
+}
+
+a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover::after {
+    content: "h2";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #000; /* Black underline */
+}
+ a:hover::after {
+        content: "h4";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background-color: #000; /* Black underline */
+}
